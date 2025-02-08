@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#pages{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+nav{
+    width:30%;
+    height: 100vh;
+    background-color: orange;
+
+}
+
+main{
+    width: 70%;
+    height: 100vh;
+    background-color: lightblue;
+    font-size: large;
+    color: white;
+}
+
+header, #foot{
+    background-color: rgb(20, 87, 129);
+    color: white;
+    
+   
+}
+
+#foot{
+    width:80%;
+    margin: 0 auto;
+   
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-left:0;
+    list-style: none;
+    color: white;
+}
+
+nav li{
+    width: 90%;
+    background-color: lightblue;
+    padding: 2vh 0;
+    margin: 5vh auto;
+    font-family:'Times New Roman', Times, serif; 
+}
+
+nav a{
+    text-decoration: none;
+    font-size: calc(2px + 1.5vw);
+    -webkit-text-fill-color: white;
+    
+    
+
+}
+
+h3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 2vh 0;
+    text-align: left;
+    align-self: flex-start;
+
+   
+}
+#experience-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    padding: 2vh 0;
+    margin-left: 20px ;
+   
+   
+}
+
+#other-text{
+    color: white;
+    
+    font-size: 16px;
+    padding: 2vh 0;
+    margin-left: 20px ;
+}
+
+
+
+#experience-title{
+    max-width: 100%;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px ;
+   
+}
+@media screen and (max-width: 1000px){
+    header{
+      text-align: center;
+      width: 100%;
+    }
+    #navigation{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav{
+        width:100%;
+        height: revert;
+    }
+    
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        
+ 
+    }
+    
+    nav li{
+        width: 12%;
+        background-color: lightblue;
+        margin: 1%;
+    }
+    
+
+}
+
